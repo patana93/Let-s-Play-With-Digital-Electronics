@@ -1,0 +1,9 @@
+name: Testing book
+identifier: com.patana93.carlo
+deployment_target: ios13.4 # Optional
+resources: assets # Optional
+swift: 5.0
+chapters:
+  - name: MyNewPlayground
+    edge_to_edge_live_view: false # defaults to true
+    live_view_mode: "VisibleByDefault" # defaults to "HiddenByDefault"
